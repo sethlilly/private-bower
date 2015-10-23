@@ -30,7 +30,7 @@
                 <h1 class="page-title">Startups.co Private Bower Repository</h1>
                 <div style="position: relative;">
                     <span class="glyphicon glyphicon-search keep-right" style="position: absolute;"></span>
-                    <input ng-model="packageFilter" class="form-control search" placeholder="Search package">
+                    <input ng-model="packageFilter" class="form-control search" placeholder="Search Package">
                     <button class="btn btn-primary" ng-click="mainController.addPackageButtonClick()" style="position: relative; top: -2px;">
                         <span class="glyphicon glyphicon-plus"></span>
                     </button>
@@ -49,13 +49,13 @@
         <div class="container animated fadeInUp">
             <div ng-if="mainController.error" class="bg-danger info-box">
                 <span class="glyphicon glyphicon-remove keep-right"></span>
-                Private Bower service is down
+                The Private Bower service is down.
             </div>
             <div ng-if="mainController.packages && !mainController.packages.length" class="bg-warning info-box">
                 <span class="glyphicon glyphicon-info-sign keep-right"></span>
-                No private packages registered
+                No private packages registered.
                 <a href="http://github.com/Hacklone/private-bower/blob/master/README.md" target="_blank">
-                    read docs about how to register packages.
+                    Read the documentation regarding registration of packages.
                 </a>
             </div>
             <div ng-if="!mainController.packages" class="bg-info info-box">
@@ -92,7 +92,7 @@
                         <div ng-if="package.details" class="details">
                             <table class="table table-condensed table-bordered" style="margin-bottom: 0;">
                                 <tr>
-                                    <td><strong>Url</strong></td>
+                                    <td><strong>URL</strong></td>
                                     <td>{{ package.url }}</td>
                                 </tr>
                                 <tr>
@@ -116,7 +116,7 @@
                     <input class="form-control" placeholder="Package Name" ng-model="packageName">
                 </div>
                 <div class="form-group">
-                    <input class="form-control" placeholder="Package url" ng-model="packageUrl">
+                    <input class="form-control" placeholder="Package URL" ng-model="packageUrl">
                 </div>
                 <div class="form-group">
                     <button ng-click="mainController.cancelAddPackageClick()" class="btn btn-default">
@@ -150,9 +150,9 @@
         <div ng-controller="authenticationController as authenticationController">
             <dialog is-opened="authenticationController.authenticationDialogOpened">
                 <div>
-                    <h2>You must authenticate</h2>
+                    <h2>You must authenticate!</h2>
                     <div class="form-group">
-                    <input class="form-control" ng-model="authenticationToken" placeholder="Authentication token">
+                    <input class="form-control" ng-model="authenticationToken" placeholder="Authentication Token">
                     </div>
                     <div class="form-group">
                         <button ng-click="authenticationController.cancelAuthentication()" class="btn btn-default">
