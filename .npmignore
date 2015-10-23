@@ -2,6 +2,7 @@ spec/
 features/
 .idea/
 .c9/
+.sublime-*
 cheese.log
 pants.log
 tmp-test.log
