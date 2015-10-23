@@ -90,20 +90,8 @@
                             </span>
                         </div>
                         <div ng-if="package.details" class="details">
-                            <table class="table table-condensed table-bordered" style="margin-bottom: 0;">
-                                <tr>
-                                    <td><strong>URL</strong></td>
-                                    <td>{{ package.url }}</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Details</strong></td>
-                                    <td>
-                                        <pre>
-                                            {{ package.details | json }}
-                                        </pre>
-                                    </td>
-                                </tr>
-                            </table>
+                            <p><strong>URL:</strong> {{ package.url }}</p>
+                            <p><strong>Description:</strong> {{ package.details.description }}</p>
                         </div>
                     </div>
                 </div>
