@@ -2,7 +2,8 @@ spec/
 features/
 .idea/
 .c9/
-.sublime-*
+*.sublime-project
+*.sublime-workspace
 cheese.log
 pants.log
 tmp-test.log
