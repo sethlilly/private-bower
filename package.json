@@ -1,12 +1,12 @@
 {
-  "name": "private-bower",
-  "version": "1.1.5",
-  "author": "Hacklone <toakak@gmail.com>",
-  "description": "A simple private bower registry",
+  "name": "sethlilly-private-bower",
+  "version": "1.0.0",
+  "author": "Seth Lilly <seth.lilly@gmail.com>",
+  "description": "A simple private bower registry, forked from private-bower",
   "main": "./bin/private-bower",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Hacklone/private-bower.git"
+    "url": "git://github.com/sethlilly/private-bower.git"
   },
   "keywords": [
     "bower",
@@ -46,13 +46,13 @@
     "superagent": "^1.1.0"
   },
   "bugs": {
-    "url": "https://github.com/Hacklone/private-bower/issues"
+    "url": "https://github.com/sethlilly/private-bower/issues"
   },
   "homepage": "http://hacklone.github.io/private-bower",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/Hacklone/private-bower/raw/master/LICENSE"
+      "url": "https://github.com/sethlilly/private-bower/raw/master/LICENSE"
     }
   ],
   "analyze": false,
