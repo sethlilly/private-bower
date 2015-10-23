@@ -1,5 +1,5 @@
 {
-  "name": "sethlilly-private-bower",
+  "name": "private-bower",
   "version": "1.0.0",
   "author": "Seth Lilly <seth.lilly@gmail.com>",
   "description": "A simple private bower registry, forked from private-bower",
