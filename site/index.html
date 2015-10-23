@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="vendor/bootstrap/dist/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/animate/animate.min.css">
-    <link href="vendor/source-sans-pro/source-sans-pro.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,500,500italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="private-bower.css">
 
     <script src="vendor/angular/angular.min.js"></script>
@@ -26,16 +26,8 @@
 <body ng-controller="mainController as mainController">
     <div id="wrap">
         <div class="jumbotron">
-            <img id="logo" class="hidden-xs animated fadeInLeft" src="logo.png">
-
-            <a class="hidden-xs animated fadeInRight" href="https://github.com/Hacklone/private-bower">
-                <img style="position: absolute; top: 0; right: 0; border: 0; cursor: pointer;"
-                     src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67"
-                     alt="Fork me on GitHub">
-            </a>
-
             <div class="container text-center animated fadeInDown">
-                <h1>private-bower</h1>
+                <h1 class="page-title">Startups.co Private Bower Repository</h1>
                 <div style="position: relative;">
                     <span class="glyphicon glyphicon-search keep-right" style="position: absolute;"></span>
                     <input ng-model="packageFilter" class="form-control search" placeholder="Search package">
@@ -177,25 +169,5 @@
             </dialog>
         </div>
     </div>
-    <footer>
-        <h2>Created by</h2>
-
-        <div class="bg-gray">
-            <div class="author">
-                <div>
-                    <a href="https://github.com/Hacklone" target="_blank" title="LinkedIn: Barna Tóth">
-                        <img src="https://avatars1.githubusercontent.com/u/2377220?s=460" class="img-circle" alt="BarnaToth">
-                    </a>
-                </div>
-                <div>
-                    <h4>
-                        <a href="https://github.com/Hacklone" analytics-category="Footer-Team" analytics-label="Barna-Link" analytics-on="click" target="_blank" title="LinkedIn: Barna Tóth">
-                            Barna Tóth
-                        </a>
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
